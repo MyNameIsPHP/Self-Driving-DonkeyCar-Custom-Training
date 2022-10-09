@@ -7,12 +7,12 @@ import pandas as pd
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 from matplotlib import image as mpimg
 from sklearn.utils import shuffle
 
-from keras import Input, Model, Sequential
-from keras.layers import Dense, Dropout, Flatten, Convolution2D
+from tensorflow.keras import Input, Model, Sequential
+from tensorflow.keras.layers import Dense, Dropout, Flatten, Convolution2D
 import tensorflow as tf
 
 def convert_to_csv(path):

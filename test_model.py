@@ -1,6 +1,6 @@
 from typing import Tuple, Union
 
-from keras.saving.save import load_model
+from tensorflow.keras.saving.save import load_model
 from matplotlib import image
 from matplotlib import pyplot
 import numpy as np

@@ -1,4 +1,4 @@
-from keras.callbacks import EarlyStopping, ModelCheckpoint
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 print('Setting up...')
 import os
